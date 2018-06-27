@@ -6,4 +6,20 @@
 .Leaderboard .Header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Leaderboard .HeaderText {
+  margin-top: 8rem;
+  margin-bottom: 1.5rem;
+  color: red;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.Leaderboard hr {
+  width: 4rem;
 }

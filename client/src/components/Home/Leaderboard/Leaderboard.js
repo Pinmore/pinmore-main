@@ -5,7 +5,7 @@ const leaderboard = (props) => {
   return(
     <div className={styles.Leaderboard}>
       <div className={styles.Header}>
-        <div>LEADERBOARD</div>
+        <div className={styles.HeaderText}>LEADERBOARD</div>
         <hr/>
       </div>
     </div>

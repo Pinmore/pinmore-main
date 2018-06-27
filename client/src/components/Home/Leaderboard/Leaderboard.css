@@ -1,0 +1,9 @@
+.Leaderboard {
+  height: 120vh;
+  background-color: #000;
+}
+
+.Leaderboard .Header {
+  display: flex;
+  flex-direction: column;
+}

@@ -2,13 +2,13 @@ import React from 'react';
 import styles from './Header.css';
 import Logo from '../../../img/logo_trans_yellow.png';
 
-const Header = (props) => {
+const header = (props) => {
   return (
     <div className={styles.Header}>
       <div className={styles.HeaderContent}>
         <div className={styles.Message}>WELCOME!</div>
         <a href="index.html">
-          <img src={Logo} alt=""/>
+          <img className={styles.Logo} src={Logo} alt=""/>
         </a>
         <div className={styles.Message__two}>Virtual Golf Tournaments</div>
       </div>
@@ -22,4 +22,4 @@ const Header = (props) => {
   )
 }
 
-export default Header;
+export default header;

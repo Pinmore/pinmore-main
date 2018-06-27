@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
+import Leaderboard from './Leaderboard/Leaderboard';
 
 class Home extends Component {
   render() {
     return(
-      <Header />
+      <div>
+        <Header />
+        <Leaderboard />
+      </div>
     )
   }
 }

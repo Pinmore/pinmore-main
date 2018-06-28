@@ -1,6 +1,6 @@
 .Rules {
   background-color: #111111;
-  height: 120vh;
+  height: 100%;
 }
 
 /* Heading */
@@ -39,11 +39,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.Rule p {
+  font-size: 1.7rem;
 }
 
 .Rules .Rule {
-  width: 500px;
+  width: 400px;
   text-align: center;
+  margin: 2rem 3rem;
 }
 
 .Rules .RuleTitle {

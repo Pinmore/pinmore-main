@@ -1,5 +1,28 @@
-.Table {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+/* Table */
+table {
+  margin-top: 5rem !important;
+}
+
+table th {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+table td {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+table .Player {
+  text-align: left !important;
+}
+
+table > tbody > tr > td,
+table > tbody > tr > th,
+table > tfoot > tr > td,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > thead > tr > th {
+  line-height: 2.4 !important;
 }

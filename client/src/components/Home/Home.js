@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
 import Leaderboard from './Leaderboard/Leaderboard';
+import Rules from './Rules/Rules';
 
 class Home extends Component {
   render() {
@@ -8,6 +9,7 @@ class Home extends Component {
       <div>
         <Header />
         <Leaderboard />
+        <Rules />
       </div>
     )
   }

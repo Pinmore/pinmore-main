@@ -1,0 +1,56 @@
+.Rules {
+  background-color: #111111;
+  height: 120vh;
+}
+
+/* Heading */
+.Rules .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rules .HeaderText {
+  margin-top: 8rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #f74b38;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.Rules hr {
+  width: 4rem;
+}
+
+/* Content Rules */
+
+.Rules .RulesContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rules .RulesRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Rules .Rule {
+  width: 500px;
+  text-align: center;
+}
+
+.Rules .RuleTitle {
+  margin: 1.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Montserrat";
+  line-height: 1.3;
+  text-transform: uppercase;
+}

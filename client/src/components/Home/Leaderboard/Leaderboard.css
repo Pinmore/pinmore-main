@@ -1,5 +1,5 @@
 .Leaderboard {
-  height: 110vh;
+  height: 120vh;
   background-color: #000;
 }
 
@@ -36,5 +36,6 @@
   border-radius: 3px;
   font-family: "Montserrat";
   font-weight: 600;
-  margin-top: 3rem;
+  margin-top: 5rem;
+  margin-left: 9rem;
 }

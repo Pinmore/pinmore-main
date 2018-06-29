@@ -1,0 +1,192 @@
+.Register {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../img/hero-bgs2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Header Title */
+.Register .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Register .HeaderText {
+  margin-top: 8rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #f74b38;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.Register hr {
+  width: 4rem;
+}
+
+/* Form Section */
+/* Form Left */
+.FormContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.Register .Form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 6rem 3rem;
+  width: 45%;
+}
+
+.Form p {
+  color: #fff;
+  margin-bottom: 3px;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.385;
+  text-transform: uppercase;
+  letter-spacing: 0.16rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.Form .Score {
+  margin-top: 3rem;
+}
+
+.Form input {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  outline: 0;
+  margin-bottom: 0.9rem;
+  background: transparent;
+}
+
+.Form input:focus {
+  border-bottom: 1px solid #f74b38;
+}
+
+tbody tr td {
+  border-top: 0 !important;
+  border-bottom: 1px solid #ddd !important;
+  font-size: 1.4rem;
+}
+
+.Form button {
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  background: #f74b38;
+  border-color: #f74b38;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.Form button:hover {
+  background: #33a242;
+  border-color: #33a242;
+}
+
+.Form .MiniContact {
+  display: none;
+  font-family: "Montserrat";
+}
+
+.Form .MiniContact h3 {
+  font-size: 1.6rem;
+}
+
+.Form .MiniContact p {
+  font-size: 1.4rem;
+}
+
+/* Form Right Side (Contact) */
+.Register .Contact {
+  background-color: #151515;
+  padding: 6rem 3rem;
+  width: 25%;
+  text-align: left;
+  font-family: "Montserrat";
+}
+
+.Register .Contact h2 {
+  color: #f74b38;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.Register .Contact h3 {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.Register .Contact p {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Register .Form {
+    width: 70%;
+  }
+
+  .Register .Contact {
+    display: none;
+  }
+  .Form .MiniContact {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 581px) and (max-width: 768px) {
+  .Register .Form {
+    width: 80%;
+  }
+
+  .Register .Contact {
+    display: none;
+  }
+
+  .Form .MiniContact {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 580px) {
+  .Register .Form {
+    width: 90%;
+  }
+
+  .Register .Contact {
+    display: none;
+  }
+
+  .Form .MiniContact {
+    display: inline-block;
+  }
+}

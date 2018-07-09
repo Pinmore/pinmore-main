@@ -3,6 +3,9 @@ import styles from './Register.css';
 import { Table } from 'react-bootstrap';
 
 class Register extends Component {
+  componentDidMount() {
+    console.log('hello');
+  }
   render() {
     return(
       <div className={styles.Register}>

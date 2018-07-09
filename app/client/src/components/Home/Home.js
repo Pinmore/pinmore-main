@@ -3,6 +3,7 @@ import Header from './Header/Header';
 import Leaderboard from './Leaderboard/Leaderboard';
 import Rules from './Rules/Rules';
 import Register from './Register/Register';
+import Footer from './Footer/Footer';
 
 class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends Component {
         <Leaderboard />
         <Rules />
         <Register />
+        <Footer />
       </div>
     )
   }
